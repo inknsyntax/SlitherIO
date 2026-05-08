@@ -1,0 +1,26 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #050505;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#gameCanvas {
+    display: block;
+}
+
+#ui-layer {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: white;
+    pointer-events: none;
+    text-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
+}
+
+#score-board {
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
